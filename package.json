@@ -1,9 +1,10 @@
 {
   "name": "modalreact",
-  "private": true,
-  "version": "0.0.0",
+  "homepage": "https://andrii-avramenko.github.io/modalreact",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
